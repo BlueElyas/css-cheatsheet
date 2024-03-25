@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #eef4ed;
+}
+
+body {
+  font-family: "Poppins", "New Times Roman", serif;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header design */
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-family: "Abril Fatface";
+  font-size: 56px;
+  color: #13315c;
+}
+
+table {
+  border: #134074 solid 1px;
+}
+
+th {
+  padding: 15px;
+  background-color: #0b2545;
+  color: #eef4ed;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #8da9c4;
+}
+
+.value {
+  font-weight: 900;
+}
+
+h2 {
+  margin-bottom: 50px;
+  color: #13315c;
+}
